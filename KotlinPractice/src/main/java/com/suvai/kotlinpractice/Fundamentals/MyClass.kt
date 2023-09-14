@@ -1,7 +1,4 @@
-package com.suvai.kotlinpractice
-
-
-import kotlin.io.path.fileVisitor
+package com.suvai.kotlin_practice
 
 fun main() {
 
@@ -13,7 +10,29 @@ fun main() {
     kotlinComment()
     ifCondition()
     whenCondition()
+    whileDoWhileLoop()
+    forLoop()
 
+}
+
+fun forLoop() {
+    for (i in 'A'..'Z') print("$i ")
+}
+
+fun whileDoWhileLoop() {
+    // print table of 5 using while loop
+    var i = 1
+    while (i <= 10) {
+        println("2 * $i = ${2 * i}")
+        i++
+    }
+
+    // do while loop
+    i = 0
+    do {
+        println("Good Morning...")
+        i++
+    } while (i < 5)
 }
 
 fun whenCondition() {
