@@ -1,4 +1,4 @@
-package com.suvai.kotlin_practice.oops
+package com.suvai.kotlinpractice.oops
 
 
 fun main() {

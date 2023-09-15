@@ -1,4 +1,4 @@
-package com.suvai.kotlin_practice.SoldierGame
+package com.suvai.kotlinpractice.SoldierGame
 
 fun main() {
     val soldier=Soldier()

@@ -10,6 +10,8 @@ import android.widget.TextView
 
 
 //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
+
+//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
 class MainActivity : AppCompatActivity() {
 
     // Kotlin Null Problem Solution

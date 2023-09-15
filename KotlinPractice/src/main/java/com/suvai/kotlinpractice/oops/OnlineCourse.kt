@@ -1,4 +1,4 @@
-package com.suvai.kotlin_practice.oops
+package com.suvai.kotlinpractice.oops
 
 class OnlineCourse(val courseName: String, val lecturer: String) { // primary constructor
     var courseTopic = "Not decided yet."//"Android application development course with Vaibhav"

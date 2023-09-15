@@ -1,4 +1,4 @@
-package com.suvai.kotlin_practice.oops
+package com.suvai.kotlinpractice.oops
 
 class Book(val title: String, var pages: Int) {
 }

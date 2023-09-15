@@ -1,4 +1,4 @@
-package com.suvai.kotlin_practice
+package com.suvai.kotlinpractice.Fundamentals
 
 fun main() {
     println(getSum(4, 5))

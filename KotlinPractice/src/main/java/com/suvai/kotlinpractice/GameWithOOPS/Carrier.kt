@@ -1,4 +1,4 @@
-package com.suvai.kotlin_practice.GameWithOOPS
+package com.suvai.kotlinpractice.GameWithOOPS
 
 class Carrier(name: String) {
     var name: String = ""
