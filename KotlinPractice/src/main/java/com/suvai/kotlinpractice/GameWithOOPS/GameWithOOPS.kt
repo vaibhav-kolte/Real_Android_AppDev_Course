@@ -9,24 +9,20 @@ fun main() {
 
     var friendlyShipYard = ShipYard()
 
-    // Start war
-    friendlyDestroyer.takeDamage(enemyDestroyer.shootShell())
-    friendlyDestroyer.takeDamage(enemyCarrier.launchAerialAttack())
+    // Small Battle
+    friendlyDestroyer.takeDamage(enemyDestroyer.attack())
+    friendlyDestroyer.takeDamage(enemyCarrier.attack())
+    enemyCarrier.takeDamage(friendlyCarrier.attack())
+    enemyCarrier.takeDamage(friendlyDestroyer.attack())
 
-    // Fight back
-    enemyCarrier.takeDamage(friendlyCarrier.launchAerialAttack())
-    enemyCarrier.takeDamage(friendlyDestroyer.shootShell())
+    friendlyDestroyer.showStarts()
+    friendlyCarrier.showStarts()
 
-    // Take stock of supplier situation
-    println("${friendlyDestroyer.name} amno = ${friendlyDestroyer.amno}")
-    println("${friendlyCarrier.name} amno = ${friendlyCarrier.attacksRemaining}")
+    friendlyDestroyer.serviceShip()
+    friendlyCarrier.serviceShip()
 
-    // End the battle by attacking enemy
-    enemyDestroyer.takeDamage(friendlyCarrier.launchAerialAttack())
-    enemyDestroyer.takeDamage(friendlyDestroyer.shootShell())
-    enemyDestroyer.takeDamage(friendlyDestroyer.shootShell())
-
-    // Go to the shipyard
-    friendlyShipYard.serviceDestroyer(friendlyDestroyer)
-    friendlyShipYard.serviceCarrier(friendlyCarrier)
+    // Finish the enemy!!!
+    enemyDestroyer.takeDamage(friendlyDestroyer.attack())
+    enemyDestroyer.takeDamage(friendlyCarrier.attack())
+    enemyDestroyer.takeDamage(friendlyDestroyer.attack())
 }

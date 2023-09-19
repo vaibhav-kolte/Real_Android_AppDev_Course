@@ -1,6 +1,6 @@
 package com.suvai.kotlinpractice.GameWithOOPS
 
-abstract class Ships(
+abstract class Ship(
     val name: String,
     private var type: String,
     private val maxAttacks: Int,
