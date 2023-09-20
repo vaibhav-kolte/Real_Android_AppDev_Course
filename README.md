@@ -8,8 +8,9 @@ In this course I learn
 3. Kotlin - Fundamentals
 4. Kotlin - Variables, Operators and Expression
 5. Kotlin - Decision, Loops, Functions and OOPs concepts
-6. Android ViewBinding
-7. Android UI widgets
-8. Constraint Layout
-9. Event handling
-10. Android code debugging and find out error using (using breakpoint, step-in and setp-out)
+6. Android life cycle
+7. Android ViewBinding
+8. Android UI widgets
+9. Constraint Layout
+10. Event handling
+11. Android code debugging and find out error using (using breakpoint, step-in and setp-out)
